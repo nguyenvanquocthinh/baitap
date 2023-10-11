@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.ss1 {
+  background-color: #3a5795;
+}
+.text-white {
+  color: white;
+}
+
+.ss2 {
+  display: inline-block;
+}
+.ss3 {
+  color: #fcfcfd;
+}
+body {
+  border-width: 30px;
+}
