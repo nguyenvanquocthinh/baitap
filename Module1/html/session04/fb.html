@@ -13,30 +13,30 @@
     />
   </head>
   <body>
-    <main>
-      <section>
+    <main class="mainsize">
+      <section class="bg">
         <form>
-          <div>
-            <div>
-              <label for="email">Email hoặc điện thoại</label><br />
-              <input id="email" type="email" /><br />
-              <input id="name" type="checkbox" />
-              <label for="name">Duy trì đăng nhập</label>
-            </div>
-            <div>
-              <label for="password">Mật khẩu</label><br />
-              <input id="password" type="password" /><br />
-              <a href="">quên mật khẩu</a>
-            </div>
-            <button>Đăng nhập</button>
+          <div class="inline">
+            <label for="email">Email hoặc điện thoại</label><br />
+            <input id="email" type="email" /><br />
+            <input id="name" - type="checkbox" />
+            <label for="name">Duy trì đăng nhập</label>
+          </div>
+          <div class="inline">
+            <label for="password">Mật khẩu</label><br />
+            <input id="password" type="password" /><br />
+            <a class="a" href="">quên mật khẩu</a>
+          </div>
+          <div class="inline">
+            <button class="button__bg">Đăng nhập</button>
           </div>
         </form>
       </section>
-      <section>
+      <section class="sectionbg">
         <form>
-          <h1>ĐĂNG KÝ</h1>
+          <h1 class="height1">ĐĂNG KÝ</h1>
           <h4>Miễn phí và sẽ luôn như vậy.</h4>
-          <div>
+          <div class="height1">
             <input id="name" type="name" placeholder="Họ" />
             <input id="name" type="name" placeholder="Tên" />
           </div>
@@ -47,7 +47,7 @@
               placeholder="Email hoặc số điện thoại"
             />
           </div>
-          <div>
+          <div class="height1">
             <input
               id="email"
               type="email"
@@ -57,7 +57,7 @@
           <div>
             <input id="password" type="password" placeholder="Mật khẩu mới" />
           </div>
-          <div>
+          <div class="height1">
             <h4>Ngày sinh</h4>
             <div>
               <select name="" id="">
@@ -71,24 +71,28 @@
               </select>
             </div>
 
-            <a href=""
+            <a class="small" style="text-decoration: none" href=""
               >Tại sao tôi cần phải cung cấp ngày tháng năm sinh của mình?</a
             >
           </div>
           <div>
-            <label for="man">nam</label>
+            <label for="man">Nam</label>
             <input id="man" name="gender" type="radio" />
-            <label for="woman">nữ</label>
+            <label for="woman">Nữ</label>
             <input id="woman" name="gender" type="radio" />
           </div>
-          <p>
+          <p class="height1">
             Bằng cách nhấp vào đăng ký, bạn đồng ý với
-            <a href="">Các điều khoản chúng tôi</a> và rằng bạn đã đọc
-            <a href="">Chính sách dữ liệu</a> của chúng tôi bao gồm
-            <a href="">Sử dụng cookie</a>
+            <a style="text-decoration: none" href=""
+              >Các điều khoản chúng tôi</a
+            >
+            và rằng bạn đã đọc
+            <a style="text-decoration: none" href="">Chính sách dữ liệu</a> của
+            chúng tôi bao gồm
+            <a style="text-decoration: none" href="">Sử dụng cookie</a>
           </p>
           <div>
-            <button>Đăng ký</button>
+            <button class="box"><b>Đăng ký</b></button>
           </div>
         </form>
       </section>

@@ -1,0 +1,19 @@
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: #333333;
+  color: azure;
+  text-align: center;
+}
+main {
+  text-align: center;
+}
+img {
+  width: 500px;
+}
+footer {
+  text-align: center;
+}
