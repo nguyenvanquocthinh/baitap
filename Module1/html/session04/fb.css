@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 html {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
@@ -11,19 +12,32 @@ html {
 .bg {
   background-color: #3a5795;
 }
+
 .mainsize {
   width: 500px;
 
   margin: 25px 500px;
 }
+
 .inline {
   color: aliceblue;
   display: inline-block;
   padding: 10px;
 }
+
 .a {
   color: aliceblue;
   text-decoration: none;
+}
+
+.input-name {
+  width: 210px;
+  height: 30px;
+}
+
+.input-name1 {
+  width: 423px;
+  height: 30px;
 }
 .button__bg {
   background-color: #5972a8;
@@ -32,6 +46,7 @@ html {
   height: 25px;
   vertical-align: 20px;
 }
+
 .sectionbg {
   background-color: #f6f3f3;
   height: 450px;
@@ -47,6 +62,4 @@ html {
   width: 190px;
   height: 30px;
   margin: 20px 0;
-}
-.small {
 }
