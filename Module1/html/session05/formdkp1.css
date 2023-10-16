@@ -34,6 +34,11 @@ h2 {
   margin-top: 10px;
 }
 
+.auth__form-input-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
 .form-height {
   height: 40px;
   width: 500px;
@@ -61,6 +66,7 @@ h2 {
 .block-social {
   color: #8b8a8a;
   margin: 10px 0;
+  text-align: center;
 }
 
 .block-social-img {
